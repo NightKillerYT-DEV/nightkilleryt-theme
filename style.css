@@ -4,7 +4,7 @@
   --TB-tr-roundness: var(--window-roundness);
   --TB-position-top: var(--TB-top, var(--window-padding));
   --TB-position-right: var(--window-padding);
-  --tint: rgb(var(--tint-colour), var(--tint-brightness));
+  --tint: rgba(var(--tint-colour), var(--tint-brightness));
   --foreground-half: rgb(255, 255, 255, 0.025);
   --foreground: rgb(255, 255, 255, 0.05);
   --foreground-double: rgb(255, 255, 255, 0.1);
@@ -714,7 +714,7 @@ textarea {
 }
 #app-mount .newMessagesBar__0f481 {
   background: var(--gradient);
- opacity: 1;
+  opacity: 1;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
   z-index: 3;
 }
