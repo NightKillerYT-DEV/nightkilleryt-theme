@@ -1,9 +1,11 @@
+
 :root {
   --version: "Frosted Glass 2.0.21";
   --TB-top: calc(var(--server-container) + var(--window-padding));
   --TB-tr-roundness: var(--window-roundness);
   --TB-position-top: var(--TB-top, var(--window-padding));
   --TB-position-right: var(--window-padding);
+  /* Use rgba so alpha (tint-brightness) is effective */
   --tint: rgba(var(--tint-colour), var(--tint-brightness));
   --foreground-half: rgb(255, 255, 255, 0.025);
   --foreground: rgb(255, 255, 255, 0.05);
@@ -35,7 +37,64 @@
   --fb-overlay-size: var(--popout-modal-size, var(--overlay-image-size));
   --fb-overlay-position: var(--popout-modal-position, var(--overlay-image-position));
   --fb-overlay-repeat: var(--popout-modal-repeat, var(--overlay-image-repeat));
+
+  /* Custom variables (your overrides) */
+  --background-image: url('https://data.whicdn.com/images/285060822/original.gif');
+  --background-image-blur: 5px;
+  --background-image-size: cover;
+  --background-image-position: center;
+  --popout-modal-image: url('https://data.whicdn.com/images/285060822/original.gif');
+  --popout-modal-blur: 0px; /* use 0px instead of nullpx */
+  --popout-modal-size: cover;
+  --popout-modal-position: center;
+  --home-button-image: url('https://discordstyles.github.io/FrostedGlass/assets/discord.svg');
+  --home-button-size: cover;
+  --home-button-position: center;
+  --serverlist-brightness: 0.3;
+  --left-brightness: 0.3;
+  --middle-brightness: 0.3;
+  --right-brightness: 0;
+  --popout-modal-brightness: 0.4;
+  --gradient-primary: 52, 152, 219;
+  --gradient-secondary: 46, 204, 113;
+  --gradient-direction: 45deg;
+  --tint-colour: 0, 0, 0;
+  --tint-brightness: 0.2;
+  --window-padding: 5px;
+  --window-roundness: 10px;
+  --scrollbar-colour: #ffffff0d;
+  --link-colour: #00b0f4;
+  --show-gift-gif-buttons: no-repeat;
+  --font: 'Architects Daughter';
+  --font-size: 16px;
+  --font-weight: bold;
+  --update-notice-1: none;
+  --primary-color: #3498db;
+  --secondary-color: #2ecc71;
 }
+
+/* ---------- OVERRIDES FOR NON-TRANSPARENT BACKGROUNDS ---------- */
+/* Force solid background for context menus, popouts, and similar elements */
+#app-mount .contextMenu-HLZMGh:not(.scroller-2FKFPG),
+#app-mount .popoutContainer__0f481,
+#app-mount .userProfileModalOuter_c69a7b,
+#app-mount .drawerSizingWrapper__08434,
+#app-mount .modal__7f8f5 {
+  background: var(--background-secondary) !important;
+}
+
+/* Hide the pseudo-element overlays that cause extra transparency */
+#app-mount .contextMenu-HLZMGh:not(.scroller-2FKFPG)::before,
+#app-mount .popoutContainer__0f481::before,
+#app-mount .userProfileModalOuter_c69a7b::before,
+#app-mount .drawerSizingWrapper__08434::before,
+#app-mount .modal__7f8f5::before {
+  display: none !important;
+}
+
+/* ---------------------------------------------------------------- */
+
+/* === THE REMAINDER OF THE CODE IS THE ORIGINAL THEME CODE (UNCHANGED) === */
 
 .theme-dark {
   --header-primary: #fff;
