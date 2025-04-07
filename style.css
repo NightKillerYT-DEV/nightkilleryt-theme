@@ -412,7 +412,7 @@ textarea {
 }
 #app-mount .lookLink-9FtZy-.colorBrand-3pXr91 {
   color: rgb(var(--gradient-primary));
-  opacity: 1;
+  opacity: 0;
 }
 #app-mount .lookOutlined-3sRXeN.colorBrand-3pXr91 {
   background: rgb(var(--discord-blurple), 0.3);
@@ -499,7 +499,7 @@ textarea {
 }
 #app-mount [class*=css][class*=placeholder] {
   color: rgba(255, 255, 255, 0.5);
-  opacity: 1;
+  opacity: 0;
 }
 #app-mount .popout__3f413 {
   -webkit-backdrop-filter: blur(var(--overlay-blur, 5px));
@@ -714,7 +714,7 @@ textarea {
 }
 #app-mount .newMessagesBar__0f481 {
   background: var(--gradient);
-  opacity: 1;
+  opacity: 0;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
   z-index: 3;
 }
@@ -1754,7 +1754,7 @@ html.platform-osx .scroller-2TZvBN {
     opacity: 0;
   }
   to {
-    opacity: 1;
+    opacity: 0;
   }
 }
 @keyframes fadeInTop {
@@ -1763,7 +1763,7 @@ html.platform-osx .scroller-2TZvBN {
     transform: translateY(-10px);
   }
   to {
-    opacity: 1;
+    opacity: 0;
     transform: translateY(0);
   }
 }
