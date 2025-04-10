@@ -1,3 +1,3 @@
 Hello there,
 
-This is just a custom discord theme by NightKillerYT.
+This is just a custom dark mode discord theme by NightKillerYT.
