@@ -1,11 +1,10 @@
 
 :root {
-  --version: "Frosted Glass 2.0.21";
+  --version: "NightKillerYT v0.00.01";
   --TB-top: calc(var(--server-container) + var(--window-padding));
   --TB-tr-roundness: var(--window-roundness);
   --TB-position-top: var(--TB-top, var(--window-padding));
   --TB-position-right: var(--window-padding);
-  /* Use rgba so alpha (tint-brightness) is effective */
   --tint: rgba(var(--tint-colour), var(--tint-brightness));
   --foreground-half: rgb(255, 255, 255, 0.025);
   --foreground: rgb(255, 255, 255, 0.05);
@@ -38,13 +37,13 @@
   --fb-overlay-position: var(--popout-modal-position, var(--overlay-image-position));
   --fb-overlay-repeat: var(--popout-modal-repeat, var(--overlay-image-repeat));
 
-  /* Custom variables (your overrides) */
+  
   --background-image: url('https://data.whicdn.com/images/285060822/original.gif');
   --background-image-blur: 5px;
   --background-image-size: cover;
   --background-image-position: center;
   --popout-modal-image: url('https://data.whicdn.com/images/285060822/original.gif');
-  --popout-modal-blur: 0px; /* use 0px instead of nullpx */
+  --popout-modal-blur: 0px;
   --popout-modal-size: cover;
   --popout-modal-position: center;
   --home-button-image: url('https://discordstyles.github.io/FrostedGlass/assets/discord.svg');
@@ -70,8 +69,7 @@
   --secondary-color: #2ecc71;
 }
 
-/* ---------- OVERRIDES FOR NON-TRANSPARENT BACKGROUNDS ---------- */
-/* Force solid background for context menus, popouts, and similar elements */
+
 #app-mount .contextMenu-HLZMGh:not(.scroller-2FKFPG),
 #app-mount .popoutContainer__0f481,
 #app-mount .userProfileModalOuter_c69a7b,
@@ -80,7 +78,7 @@
   background: var(--background-secondary) !important;
 }
 
-/* Hide the pseudo-element overlays that cause extra transparency */
+
 #app-mount .contextMenu-HLZMGh:not(.scroller-2FKFPG)::before,
 #app-mount .popoutContainer__0f481::before,
 #app-mount .userProfileModalOuter_c69a7b::before,
@@ -89,9 +87,9 @@
   display: none !important;
 }
 
-/* ---------------------------------------------------------------- */
 
-/* === THE REMAINDER OF THE CODE IS THE ORIGINAL THEME CODE (UNCHANGED) === */
+
+
 
 .theme-dark {
   --header-primary: #fff;
@@ -1825,7 +1823,7 @@ html.platform-osx .scroller-2TZvBN {
 }
 
 
-/* latin-ext */
+
 @font-face {
   font-family: 'Architects Daughter';
   font-style: normal;
@@ -1833,7 +1831,7 @@ html.platform-osx .scroller-2TZvBN {
   src: url(https://fonts.gstatic.com/s/architectsdaughter/v19/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYdg4_zg.woff2) format('woff2');
   unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
-/* latin */
+
 @font-face {
   font-family: 'Architects Daughter';
   font-style: normal;
