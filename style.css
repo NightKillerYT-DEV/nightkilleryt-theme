@@ -1,3 +1,4 @@
+
 @import url("https://milbits.github.io/oldcord/src/components/vars.css");
 @import url("https://milbits.github.io/oldcord/src/components/color.css");
 @import url("https://milbits.github.io/oldcord/src/components/imgs.css");
@@ -5,8 +6,9 @@
 @import url("https://milbits.github.io/oldcord/src/components/profile.css");
 @import url("https://milbits.github.io/oldcord/src/components/redesign.css");
 
+
 :root {
-  --version: "NightKillerYT v0.00.02";
+  --version: "NightKillerYT v0.00.01";
   --TB-top: calc(var(--server-container) + var(--window-padding));
   --TB-tr-roundness: var(--window-roundness);
   --TB-position-top: var(--TB-top, var(--window-padding));
@@ -42,7 +44,6 @@
   --fb-overlay-size: var(--popout-modal-size, var(--overlay-image-size));
   --fb-overlay-position: var(--popout-modal-position, var(--overlay-image-position));
   --fb-overlay-repeat: var(--popout-modal-repeat, var(--overlay-image-repeat));
-
   
   --background-image: url('https://data.whicdn.com/images/285060822/original.gif');
   --background-image-blur: 5px;
