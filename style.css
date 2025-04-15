@@ -1,6 +1,3 @@
-@import url("https://milbits.github.io/oldcord/src/main.css");
-
-
 :root {
   --version: "NightKillerYT v0.00.01";
   --TB-top: calc(var(--server-container) + var(--window-padding));
