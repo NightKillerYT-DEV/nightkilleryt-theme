@@ -1,4 +1,3 @@
-
 :root {
   --version: "NightKillerYT v0.00.01";
   --TB-top: calc(var(--server-container) + var(--window-padding));
@@ -86,10 +85,6 @@
 #app-mount .modal__7f8f5::before {
   display: none !important;
 }
-
-
-
-
 
 .theme-dark {
   --header-primary: #fff;
@@ -507,22 +502,29 @@ textarea {
 #app-mount .item__001a7 .checkbox-1ix_J3.checked-1pZh2h {
   background: var(--text-normal) !important;
 }
-#app-mount .item__001a7[style*="rgb(114, 137, 218)"], #app-mount .item__001a7[aria-checked=true] {
+#app-mount .item__001a7[style*="rgb(114, 137, 218)"],
+#app-mount .item__001a7[aria-checked=true] {
   background: var(--gradient) !important;
 }
-#app-mount .item__001a7[style*="rgb(114, 137, 218)"] .checkbox-1ix_J3, #app-mount .item__001a7[aria-checked=true] .checkbox-1ix_J3 {
+#app-mount .item__001a7[style*="rgb(114, 137, 218)"] .checkbox-1ix_J3,
+#app-mount .item__001a7[aria-checked=true] .checkbox-1ix_J3 {
   background: var(--text-normal);
 }
-#app-mount .item__001a7[style*="rgb(114, 137, 218)"] polyline, #app-mount .item__001a7[aria-checked=true] polyline {
+#app-mount .item__001a7[style*="rgb(114, 137, 218)"] polyline,
+#app-mount .item__001a7[aria-checked=true] polyline {
   stroke: rgb(var(--gradient-primary));
 }
-#app-mount .item__001a7[style*="rgb(114, 137, 218)"]:has(> .radioBar__001a7[style*="--radio-bar-accent-color"]), #app-mount .item__001a7[aria-checked=true]:has(> .radioBar__001a7[style*="--radio-bar-accent-color"]) {
+#app-mount .item__001a7[style*="rgb(114, 137, 218)"]:has(> .radioBar__001a7[style*="--radio-bar-accent-color"]),
+#app-mount .item__001a7[aria-checked=true]:has(> .radioBar__001a7[style*="--radio-bar-accent-color"]) {
   background: transparent !important;
 }
-#app-mount .item__001a7[style*="rgb(114, 137, 218)"]:has(> .radioBar__001a7[style*="--radio-bar-accent-color"]) .radioBar__001a7, #app-mount .item__001a7[aria-checked=true]:has(> .radioBar__001a7[style*="--radio-bar-accent-color"]) .radioBar__001a7 {
+#app-mount .item__001a7[style*="rgb(114, 137, 218)"]:has(> .radioBar__001a7[style*="--radio-bar-accent-color"]) .radioBar__001a7,
+#app-mount .item__001a7[aria-checked=true]:has(> .radioBar__001a7[style*="--radio-bar-accent-color"]) .radioBar__001a7 {
   background: var(--radio-bar-accent-color);
 }
-#app-mount .item__001a7[style*="rgb(240, 71, 71)"] .checkbox-1ix_J3, #app-mount .item__001a7[style*="rgb(250, 166, 26)"] .checkbox-1ix_J3, #app-mount .item__001a7[style*="rgb(67, 181, 129)"] .checkbox-1ix_J3 {
+#app-mount .item__001a7[style*="rgb(240, 71, 71)"] .checkbox-1ix_J3,
+#app-mount .item__001a7[style*="rgb(250, 166, 26)"] .checkbox-1ix_J3,
+#app-mount .item__001a7[style*="rgb(67, 181, 129)"] .checkbox-1ix_J3 {
   background: var(--text-normal);
 }
 #app-mount .valueUnchecked-2lU_20 {
@@ -674,7 +676,8 @@ textarea {
   background: var(--foreground);
   color: rgb(var(--gradient-primary));
 }
-#app-mount .guilds_c48ade [class*=circleIconButton].selected-ugP_am, #app-mount .guilds_c48ade [class*=circleIconButton]:hover {
+#app-mount .guilds_c48ade [class*=circleIconButton].selected-ugP_am,
+#app-mount .guilds_c48ade [class*=circleIconButton]:hover {
   background: var(--foreground-double);
   color: var(--text-normal);
 }
@@ -855,7 +858,8 @@ textarea {
   align-items: center;
   color: var(--text-muted);
 }
-#app-mount .divider__908e2 .content__908e2::before, #app-mount .divider__908e2 .content__908e2::after {
+#app-mount .divider__908e2 .content__908e2::before,
+#app-mount .divider__908e2 .content__908e2::after {
   content: "";
   flex: 1;
   height: 1px;
@@ -1672,7 +1676,8 @@ textarea {
   background: var(--foreground);
   transition: 0.2s ease;
 }
-#app-mount .layer__960e4:not(.baseLayer__960e4) .connectionDelete-XXTMqE::after, #app-mount .layer__960e4:not(.baseLayer__960e4) .connectionDelete-XXTMqE::before {
+#app-mount .layer__960e4:not(.baseLayer__960e4) .connectionDelete-XXTMqE::after,
+#app-mount .layer__960e4:not(.baseLayer__960e4) .connectionDelete-XXTMqE::before {
   position: absolute;
   top: 50%;
   left: 50%;
