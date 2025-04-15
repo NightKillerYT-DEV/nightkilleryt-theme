@@ -1,3 +1,4 @@
+
 :root {
   --version: "NightKillerYT v0.00.01";
   --TB-top: calc(var(--server-container) + var(--window-padding));
@@ -35,6 +36,7 @@
   --fb-overlay-size: var(--popout-modal-size, var(--overlay-image-size));
   --fb-overlay-position: var(--popout-modal-position, var(--overlay-image-position));
   --fb-overlay-repeat: var(--popout-modal-repeat, var(--overlay-image-repeat));
+
   
   --background-image: url('https://data.whicdn.com/images/285060822/original.gif');
   --background-image-blur: 5px;
@@ -505,29 +507,22 @@ textarea {
 #app-mount .item__001a7 .checkbox-1ix_J3.checked-1pZh2h {
   background: var(--text-normal) !important;
 }
-#app-mount .item__001a7[style*="rgb(114, 137, 218)"],
-#app-mount .item__001a7[aria-checked=true] {
+#app-mount .item__001a7[style*="rgb(114, 137, 218)"], #app-mount .item__001a7[aria-checked=true] {
   background: var(--gradient) !important;
 }
-#app-mount .item__001a7[style*="rgb(114, 137, 218)"] .checkbox-1ix_J3,
-#app-mount .item__001a7[aria-checked=true] .checkbox-1ix_J3 {
+#app-mount .item__001a7[style*="rgb(114, 137, 218)"] .checkbox-1ix_J3, #app-mount .item__001a7[aria-checked=true] .checkbox-1ix_J3 {
   background: var(--text-normal);
 }
-#app-mount .item__001a7[style*="rgb(114, 137, 218)"] polyline,
-#app-mount .item__001a7[aria-checked=true] polyline {
+#app-mount .item__001a7[style*="rgb(114, 137, 218)"] polyline, #app-mount .item__001a7[aria-checked=true] polyline {
   stroke: rgb(var(--gradient-primary));
 }
-#app-mount .item__001a7[style*="rgb(114, 137, 218)"]:has(> .radioBar__001a7[style*="--radio-bar-accent-color"]),
-#app-mount .item__001a7[aria-checked=true]:has(> .radioBar__001a7[style*="--radio-bar-accent-color"]) {
+#app-mount .item__001a7[style*="rgb(114, 137, 218)"]:has(> .radioBar__001a7[style*="--radio-bar-accent-color"]), #app-mount .item__001a7[aria-checked=true]:has(> .radioBar__001a7[style*="--radio-bar-accent-color"]) {
   background: transparent !important;
 }
-#app-mount .item__001a7[style*="rgb(114, 137, 218)"]:has(> .radioBar__001a7[style*="--radio-bar-accent-color"]) .radioBar__001a7,
-#app-mount .item__001a7[aria-checked=true]:has(> .radioBar__001a7[style*="--radio-bar-accent-color"]) .radioBar__001a7 {
+#app-mount .item__001a7[style*="rgb(114, 137, 218)"]:has(> .radioBar__001a7[style*="--radio-bar-accent-color"]) .radioBar__001a7, #app-mount .item__001a7[aria-checked=true]:has(> .radioBar__001a7[style*="--radio-bar-accent-color"]) .radioBar__001a7 {
   background: var(--radio-bar-accent-color);
 }
-#app-mount .item__001a7[style*="rgb(240, 71, 71)"] .checkbox-1ix_J3,
-#app-mount .item__001a7[style*="rgb(250, 166, 26)"] .checkbox-1ix_J3,
-#app-mount .item__001a7[style*="rgb(67, 181, 129)"] .checkbox-1ix_J3 {
+#app-mount .item__001a7[style*="rgb(240, 71, 71)"] .checkbox-1ix_J3, #app-mount .item__001a7[style*="rgb(250, 166, 26)"] .checkbox-1ix_J3, #app-mount .item__001a7[style*="rgb(67, 181, 129)"] .checkbox-1ix_J3 {
   background: var(--text-normal);
 }
 #app-mount .valueUnchecked-2lU_20 {
